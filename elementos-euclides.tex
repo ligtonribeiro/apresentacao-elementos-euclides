@@ -1,0 +1,27 @@
+\documentclass[serif]{beamer}
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage{import, ragged2e, graphicx, enumerate, subfigure}
+\usepackage{multicol, xcolor, amsmath, amsthm, array}
+
+% Aling justify \item Itemize
+\let\olditem\item
+\renewcommand\item{\olditem\justifying}
+
+% Título da Apresentação
+\title{História da Matemática}
+\subtitle{Os Elementos de Euclides}
+\author{Wellington Menezes}
+\institute[]{Instituto Federal de Ciência e Tecnologia do Ceará - IFCE}
+\date{Fevereiro - 2022}
+
+\begin{document}
+\frame{\titlepage}
+\begin{frame}
+    \frametitle{Índice}
+    \tableofcontents
+\end{frame}
+
+\include{slides/slides}
+
+\end{document}
